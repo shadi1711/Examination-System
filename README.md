@@ -8,13 +8,13 @@ The project consists of two main components: a database backend and a desktop ap
 The database is designed to efficiently store and manage data related to students, courses, exams, questions, instructors, and various administrative functions. The database schema is organized into several tables, and stored procedures have been implemented to perform complex operations. Some of the key stored procedures include:
 
 - `dbo.CalculateStudentGrade`: Calculates the grade for a student based on the exam results.
-- `dbo.Delete_*`: Procedures to delete various entities such as branches, choices, courses, exams, instructors, questions, students, and more.
+- `dbo.Delete`: Procedures to delete various entities such as branches, choices, courses, exams, instructors, questions, students, and more.
 - `dbo.DisplayExam`: Retrieves exam details for display purposes.
 - `dbo.ExamCorrection`: Corrects the exam, updating the results.
 - `dbo.Generate_Exam`: Generates an exam for students.
-- `dbo.Insert_*`: Procedures to insert new entities into the system, including branches, courses, exams, instructors, questions, and students.
-- `dbo.Select_*`: Procedures to retrieve information about various entities, such as courses, exams, questions, students, and more.
-- `dbo.Update_*`: Procedures to update information for various entities, including branches, courses, exams, instructors, questions, students, and more.
+- `dbo.Insert`: Procedures to insert new entities into the system, including branches, courses, exams, instructors, questions, and students.
+- `dbo.Select`: Procedures to retrieve information about various entities, such as courses, exams, questions, students, and more.
+- `dbo.Update`: Procedures to update information for various entities, including branches, courses, exams, instructors, questions, students, and more.
 
 ### Desktop Application
 The desktop application serves as the frontend for the examination system, providing a user-friendly interface for administrators, instructors, and students. It interacts with the database to perform operations such as creating exams, managing courses, viewing student grades, and more.
